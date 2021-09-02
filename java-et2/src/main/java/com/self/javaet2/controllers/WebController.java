@@ -12,7 +12,6 @@ public class WebController {
 
     @Autowired
     private OrderBook book;
-    private Object Exception;
 
     @GetMapping("/trades")
     String printOrderBook() throws JsonProcessingException {
